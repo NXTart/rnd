@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"start": "parcel ./src/index.html --open"
+		"start": "parcel ./src/index.html"
 	},
 	"browserslist": [
 		"last 1 Chrome versions"
