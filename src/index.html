@@ -24,6 +24,53 @@
 		<button id="createOrder">Create order</button> (fill contract and tokenId)
 	</div>
 
+	<center><div><H3>Загрузка изображения<H3></div></center>
+        <form method='post' action='' enctype="multipart/form-data">
+          <input type='file' name='fileUploaded' id='fileUploaded'>
+          <input id='ipfsupload' type='button' value="Загрузить">
+        </form>
+        <div>
+          <img src="" id="loadedPicture" width="100px">
+        </div>
+        <form>
+          <input type="text" id="IpfsHash" placeholder="IpfsHash"/>
+          <input type="text" id="PinSize" placeholder="PinSize"/>
+          <input type="text" id="Timestamp" placeholder="Timestamp"/>
+          <input type="text" id="uriIpfs" placeholder="uriIpfs"/>
+        </form>
+	<center><div><H3>Установка metaData<H3></div></center>
+        <form method='post' action='' enctype="multipart/form-data">
+          <div>
+            <input type="text" id="name" placeholder="name"/>
+            <input type="text" id="description" placeholder="description"/>
+            <input type="text" id="image" placeholder="image"/>
+          </div>
+          <div>
+            <input type="text" id="external_url" placeholder="external_url"/>
+            <input type="text" id="animation_url" placeholder="animation_url"/>
+          </div>
+          <div>
+              Attributes
+          </div>
+          <div>
+            <input type="text" id="attributes_key" placeholder="key"/>
+            <input type="text" id="attributes_trait_type" placeholder="trait_type"/>
+            <input type="text" id="attributes_value" placeholder="value"/>
+
+          </div>
+          
+          <input id='ipfsmeta' type='button' value="Установить">
+        </form>
+          <div>
+              Result
+          </div>
+
+        <form>
+          <input type="text" id="metaIpfsHash" placeholder="IpfsHash"/>
+          <input type="text" id="metaPinSize" placeholder="PinSize"/>
+          <input type="text" id="metaTimestamp" placeholder="Timestamp"/>
+        </form>
+
 	<script src="./script.ts"></script>
 </body>
 </html>
