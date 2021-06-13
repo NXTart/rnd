@@ -14,6 +14,8 @@ export const client = axios.create({
 export const ipfsProvider = 'http://143.244.146.144:3000/';
 //export const ipfsProvider = 'http://localhost:3000/';
 export const getwayImage = "https://gateway.pinata.cloud";
+export const  ExchageV2Core = '0xc778417E063141139Fce010982780140Aa0cD5Ab';
+export const NFTManager = "0xc8848086E7e3eb34DEd2DE9273545064ac0EAa56";
 
 
 // @ts-ignore
