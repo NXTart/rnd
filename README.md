@@ -1,13 +1,14 @@
-## Signing typed data
+## Unknown Brain - проект для хакатона DefiNition
 
-Example of how to sign typed data with injectable ethereum wallet
+Проработка концепции краткосрочного криптокредитование под залог NFT на основе системы совместной продажи (смарт контракт)
 
-### Installation
+### Установка проекта
+- `git clone https://github.com/UnknownBrainHack/rnd `
+- `cd rnd`
+- `yarn install` - установка всех зависимостей
 
-- `yarn install` - install all project dependencies
+### Запуск проекта и работа с ним
 
-### Running
-
-- `yarn run start` - Build & run UI for ethereum wallet interaction
-- Click `Connect wallet` button to connect your injectable ethereum wallet (like Metamask)
-- Click `Create signature and create order` to make a typed data signature with Rarible's order scheme. It will interact with your injected wallet and then create new order on Rarible
+- `yarn run start` - Запустить проект.
+Проект будет доступен на 127.0.0.1:1234
+- Нажмите `Connect wallet` чтобы подключить Metamask.
