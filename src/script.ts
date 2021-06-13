@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import Web3 from "web3"
 import 'regenerator-runtime/runtime'
 import axios from "axios"
